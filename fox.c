@@ -6,7 +6,7 @@
 /*   By: ldu-pree <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/29 07:31:38 by ldu-pree          #+#    #+#             */
-/*   Updated: 2019/05/29 08:35:11 by ldu-pree         ###   ########.fr       */
+/*   Updated: 2019/05/29 08:43:34 by ldu-pree         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,4 +119,5 @@ char *str;
 
 str = (char *)malloc(sizeof(int))
 str = (the cast type so (int *) or (char *))malloc(size of bytes)
+//it gives the pointer 'str' a block of memory of the size of bytes defined at the end
 
