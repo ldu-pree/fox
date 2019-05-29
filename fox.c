@@ -6,7 +6,7 @@
 /*   By: ldu-pree <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/29 07:31:38 by ldu-pree          #+#    #+#             */
-/*   Updated: 2019/05/29 07:55:35 by ldu-pree         ###   ########.fr       */
+/*   Updated: 2019/05/29 08:35:11 by ldu-pree         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,30 @@ if (i == 1)
 {
 
 }
-//the write function
+
+// for the if statement
+int i = 0;
+if (i == 1)
+{
+//so when i is equal to 1 it will run the break line the == is used to compare the variable so to check if it is 1, if you use only one = then it sets the variable to the value
+	break;
+}
+
+//the while function
+int i = 0;
+while (i == 1)
+{
+//so while i is equal to 1 (i == 1) then it will run the commands contained by the curly brackets
+	break;
+}
+
+//
+//the for function we are not allowed to use yet
+//
+
+//the wirite function
+//it is a normal function like ft_putchar with its own parameters being these:
+ssize_t		write(int fildes, const void *buf, size_t nbytes);
 write (1, c, 1);
        ^ 
 	   this is the file descriptor it is usually 1, (0 is the standard input,1 is the standard output,2 is the standard error)
@@ -80,3 +103,20 @@ write (1, c, 1);
 		  	 the last 1 is how many bytes it will print or how many letters since 1 letter is 1 byte
 
 //the printf function
+printf("hello %s", "world");
+this will print "hello world"
+printf(first, second);
+//so in the first part you can put the string it will print with %s or one of the other letters below, so if you type printf("hello %s good %s","world" "morning") it will replace the first %s with the first string "world" and the second %s with the second string "morning"
+//%d is to display the digit
+//%s is to display the string
+//%c is to display the character
+//%f is to display the float variable
+//%lf is to display a double (not used yet)
+//%x is to display a hexadecimal (not used yet)
+
+//the malloc function
+char *str;
+
+str = (char *)malloc(sizeof(int))
+str = (the cast type so (int *) or (char *))malloc(size of bytes)
+
