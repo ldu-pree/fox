@@ -6,7 +6,7 @@
 /*   By: ldu-pree <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/29 07:31:38 by ldu-pree          #+#    #+#             */
-/*   Updated: 2019/05/29 08:43:34 by ldu-pree         ###   ########.fr       */
+/*   Updated: 2019/06/11 08:25:28 by ldu-pree         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,6 +113,25 @@ printf(first, second);
 //%f is to display the float variable
 //%lf is to display a double (not used yet)
 //%x is to display a hexadecimal (not used yet)
+//
+//example
+void	username()
+{
+	char *user;
+
+	user = "Nosyliamster55";
+	printf("My username is: %s", user);
+}
+//or a function that takes a input
+void	username(char *user)
+{
+	printf("My username is %s", user);
+}
+int		main()
+{
+	username();
+	return 0;
+}
 
 //the malloc function
 char *str;
